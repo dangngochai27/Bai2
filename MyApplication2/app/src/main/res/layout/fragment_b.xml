@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fded72">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textSize="40sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edt_Noidung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment A"/>
+        <Button
+            android:id="@+id/btn_ClickB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK B" />
+    </LinearLayout>
+</LinearLayout>
